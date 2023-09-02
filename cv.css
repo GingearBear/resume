@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+body {
+    font-family: 'ADLaM Display', sans-serif;
+    font-size: 15px;
+    background: black;
+    color: white;
+    max-width: 900px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+a {
+    text-decoration: none;
+    transition: 2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+/* .card {
+    background: lightcoral;
+    padding: 10px;
+} */
+
+.card-1 {
+    background: grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-1 li {
+    padding-top: 5px;
+}
+
+.card-2 {
+    background: purple;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.card-3 {
+    background: coral;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.btn {
+    background: lightblue;
+    font-family: inherit;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
